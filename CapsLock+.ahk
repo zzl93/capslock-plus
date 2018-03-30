@@ -732,8 +732,6 @@ return
 #If
 
 
-
-
 GuiClose:
 GuiEscape:
 Gui, Cancel
