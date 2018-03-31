@@ -7,6 +7,12 @@ keyFunc_cmder(){
     return
 }
 
+keyFunc_getDate(){
+	FormatTime, now_date, %A_Now%, yyyy-MM-dd HH:mm
+	Send, %now_date%
+    return
+}
+
 keyFunc_doNothing(){
     return
 }
